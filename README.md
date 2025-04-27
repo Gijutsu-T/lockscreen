@@ -146,13 +146,3 @@ pyinstaller --onefile --noconsole main.py
 ⚡ Make sure to choose a **very strong passcode** that no one can guess.  
 ⚡ Remember the **secret combo (`Ctrl+Shift+Q`)** to quickly exit in emergencies.  
 ⚡ If you're planning to use this in a serious environment (e.g., offices), **full hardening is recommended**.
-
-```
-
----
-
-# 📢 Quick Notes:
-- **Windows:** Python comes with `tkinter`, so you only need to install `pillow`.
-- **macOS/Linux:** Ensure that `tkinter` is installed; sometimes it comes separately.
-- **Advanced:** If you want to seriously lock your laptop like **really hacker-style** (prevent everything), you'd eventually need a native app written in C++ or system programming hooks.
-
